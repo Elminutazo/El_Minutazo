@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - El Minutazo</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" alt="Logo de El Minutazo" class="logo">
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#" onclick="filterProducts('todos')">Todos</a></li>
+                <li><a href="#" onclick="filterProducts('minutas')">Minutas</a></li>
+                <li><a href="#" onclick="filterProducts('fresas')">Fresas con Crema</a></li>
+                <li><a href="#" onclick="filterProducts('snacks')">Snacks</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main class="main-content">
+        <section id="home">
+            <h1>Bienvenido a El Minutazo</h1>
+            <p>Bienvenidos al catálogo web de El Minutazo, donde encontrarás los mejores productos
+                refrescantes para disfrutar en cualquier momento del día. Nos especializamos en 
+                ofrecerte minutas, raspados y fresas con crema elaborados con ingredientes frescos
+                y naturales, pensados para que cada bocado sea una experiencia única.</p>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="Especialidad">Nuestra especialidad</h2>
+                <div class="minutazo">
+                    <div class="texto">
+                        <p>
+                            En <strong>El Minutazo</strong> nos especializamos en ofrecer minutas artesanales, fresas con crema y deliciosos snacks como churros y gomitas. 
+                            Nuestro objetivo es refrescar tus días con sabores únicos y atención personalizada. ¡Te esperamos con gusto y sabor!
+                        </p>
+                    </div>
+                    <div class="video">
+                        <video controls autoplay loop muted>
+                            <source src="Jalea.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="nuestros-productos">Nuestros Productos</h2>
+
+        <section id="catalogo" class="catalogo">
+            <!-- Aquí se cargarán los productos dinámicamente -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-socials">
+            <p class="footer-socials-title">Búscanos en nuestras redes sociales</p>
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>&copy; 2025 El Minutazo. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="Script.js"></script>
+</body>
+</html>
