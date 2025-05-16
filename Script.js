@@ -12,22 +12,46 @@ const products = [
         description: "Ideal para los amantes de lo ácido."
     },
     {
+        name: "Minuta de mango",
+        category: "minutas",
+        image: "img/minuta-tamarindo.jpg",
+        description: "Ideal para los amantes de lo ácido/dulce."
+    },
+    {
+        name: "Minuta de coco",
+        category: "minutas",
+        image: "img/minuta-tamarindo.jpg",
+        description: "Ideal para los amantes de lo fresco."
+    },
+    {
         name: "Fresas con Crema",
         category: "fresas",
         image: "img/fresas-crema.jpg",
         description: "Fresas frescas con crema dulce casera."
     },
-    {
-        name: "Churros Dulces",
-        category: "snacks",
-        image: "img/churros.jpeg",
-        description: "Crujientes, espolvoreados con azúcar y canela."
+     {
+        name: "Fresas con Crema y chispas",
+        category: "fresas",
+        image: "img/fresas-crema.jpg",
+        description: "Fresas frescas con chispas y toppings a tu gusto."
+    },
+     {
+        name: "Fresas con Crema y chocolate",
+        category: "fresas",
+        image: "img/fresas-crema.jpg",
+        description: "Fresas frescas con chispas y toppings a tu gusto."
     },
     {
-        name: "Gomitas Enchiladas",
+        name: "Churros preparados",
+        category: "snacks",
+        image: "img/churros.jpeg",
+        description: "Ricos churros preparados a tu gusto."
+    },
+    {
+        name: "Charamuscas",
         category: "snacks",
         image: "img/gomitas.jpg",
-        description: "Dulces, picosas y adictivas."
+        description: "Te helan el palador con sus distintos sabores frutales."
     }
     // Producto duplicado eliminado
 ];
